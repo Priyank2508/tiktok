@@ -260,28 +260,28 @@ android {
         }
     }
 
-    packagingOptions {
-        pickFirst '**/armeabi-v7a/libc++_shared.so'
-        pickFirst '**/x86/libc++_shared.so'
-        pickFirst '**/arm64-v8a/libc++_shared.so'
-        pickFirst '**/x86_64/libc++_shared.so'
-        pickFirst '**/x86/libjsc.so'
-        pickFirst '**/armeabi-v7a/libjsc.so'
-    }
+    // packagingOptions {
+    //     pickFirst '**/armeabi-v7a/libc++_shared.so'
+    //     pickFirst '**/x86/libc++_shared.so'
+    //     pickFirst '**/arm64-v8a/libc++_shared.so'
+    //     pickFirst '**/x86_64/libc++_shared.so'
+    //     pickFirst '**/x86/libjsc.so'
+    //     pickFirst '**/armeabi-v7a/libjsc.so'
+    // }
 
-    flavorDimensions "appstore"
+    // flavorDimensions "appstore"
     
-     productFlavors {
-       googlePlay {
-         dimension "appstore"
-         missingDimensionStrategy "store", "play"
-       }
+    //  productFlavors {
+    //    googlePlay {
+    //      dimension "appstore"
+    //      missingDimensionStrategy "store", "play"
+    //    }
     
-       amazon {
-         dimension "appstore"
-         missingDimensionStrategy "store", "amazon"
-       }
-     }
+    //    amazon {
+    //      dimension "appstore"
+    //      missingDimensionStrategy "store", "amazon"
+    //    }
+    //  }
 }
 
 apply from: new File(["node", "--print", "require.resolve('react-native/package.json')"].execute().text.trim(), "../react.gradle")
