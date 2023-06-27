@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753197451888",
+    "project_id": "tiktok-73d7a",
+    "storage_bucket": "tiktok-73d7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753197451888:android:416832f221550da47e82b5",
+        "android_client_info": {
+          "package_name": "io.instamobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753197451888-qef8lm4j71as0alvsvp40mir9r16npq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASthyiSPwoCHciROtzqhWd1j3gbHKdYBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753197451888-qef8lm4j71as0alvsvp40mir9r16npq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
