@@ -11,6 +11,11 @@
     },
     "ios": {
       "googleServicesFile": "./ios/Instamobile/GoogleService-Info.plist"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a7c4646-ce6d-4624-b654-02361239c0f3"
+      }
     }
   }
 }
